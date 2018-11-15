@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Music application</string>
+    <string name="action_settings">Configuration</string>
+    <string name="action_add_favourite">Add to Favorites</string>
+    <string name="action_play_next">Next song</string>
+    <string name="backdrop_title">Music for the moment</string>
+    <string name="backdrop_subtitle">The best 20</string>
+    <string name="serie1">Dark</string>
+    <string name="serie2">13 Reason why</string>
+    <string name="serie3">Orange is the new Black</string>
+    <string name="serie4">Stranger Things</string>
+    <string name="serie5">The paper house</string>
+    <string name="serie6">Games of thrones</string>
+    <string name="serie7">Elite</string>
+    <string name="serie8">Insatiable</string>
+    <string name="serie9">The Walking Dead</string>
+    <string name="serie10">The Crown</string>
+
+    <string name="descripcion1">The disappearance of two children shows the links between four families and exposes the past of a small city</string>
+    <string name="descripcion2">After a young woman takes her life, her classmate finds a mysterious box in her yard</string>
+    <string name="descripcion3">Convicted of a decade old crime of transporting drug money to an ex-girlfriend, normally law-abiding Piper Chapman is sentenced to a year and a half behind bars to face the reality of how life-changing prison can really be</string>
+    <string name="descripcion4">Some children begin to notice strange behaviors in the place where they live where they have to find a solution to a big problem</string>
+    <string name="descripcion5">Some thieves infiltrate a bank which they try to steal in a very clever way, they can execute what they plan</string>
+    <string name="descripcion6">This series shows the competition between noble families of seven kingdoms of Westeros, whose purpose is to gain control over the Iron Throne</string>
+    <string name="descripcion7">Las Encinas is the most exclusive school in Spain, the place where the children of the elite study and where they have just been admitted three young low class, from a public school in ruins</string>
+    <string name="descripcion8">This series tells the story of Patty, an overweight teenager who suffers the teasing of her classmates, until she loses weight during a summer vacation</string>
+    <string name="descripcion9">After being in a coma, police Rick Grimes discovers that a disease led to a zombie apocalypse. Rick will lead a group of survivors to find a safe place, but the most dangerous fights will arise among themselves</string>
+    <string name="descripcion10">A chronicle of the life of Queen Elizabeth II from the 40s to modern times. As the decades pass, personal intrigues, romances and political rivalries are revealed</string>
+
+    <string name="clicSeleccionado">Click Selected: </string>
+    <string name="canciones">Songs</string>
+    <string name="favoritos">Add to Favorites</string>
+    <string name="siguiente">Next song</string>
+    <string name="descripcion">Description: </string>
+</resources>

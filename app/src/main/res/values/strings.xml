@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">¡Todo Sobre Series!</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_add_favourite">Agregar a favoritos</string>
+    <string name="action_play_next">Siguiente canción</string>
+    <string name="backdrop_title">Series del momento</string>
+    <string name="backdrop_subtitle">Las mejores 10</string>
+    <string name="serie1">Dark</string>
+    <string name="serie2">13 Reason why</string>
+    <string name="serie3">Orange is the new Black</string>
+    <string name="serie4">Stranger Things</string>
+    <string name="serie5">La casa de papel</string>
+    <string name="serie6">Games of thrones</string>
+    <string name="serie7">Elite</string>
+    <string name="serie8">Insaciable</string>
+    <string name="serie9">The Walking Dead</string>
+    <string name="serie10">The Crown</string>
+    <string name="descripcion1">La desaparición de dos niños muestra los vínculos entre cuatro familias y expone el pasado de una pequeña ciudad</string>
+    <string name="descripcion2">Después de que una mujer joven se quita la vida, su compañero de clase encuentra una misteriosa caja en su patio</string>
+    <string name="descripcion3">Condenado por un crimen de una década de transportar dinero de la droga a una ex novia, normalmente Piper Chapman es condenado a un año y medio tras las rejas para enfrentar la realidad de lo que realmente puede ser una prisión que cambia la vida</string>
+    <string name="descripcion4">Unos niños empiezan a notar comportamientos raros en el lugar donde viven donde tienen que encontrar una solucion a un gran problema</string>
+    <string name="descripcion5">Unos ladrones se infiltran en un banco el cual intentan robar de una manera muy astuta, podran ejecutar lo que planean</string>
+    <string name="descripcion6">Está serie, muestra la competencia entre familias nobles de siete reinos de Westeros, cuya finalidad es ganar el control sobre el Trono de Hierro</string>
+    <string name="descripcion7">Las Encinas es el colegio más exclusivo de España, el lugar donde estudian los hijos de la élite y donde acaban de ser admitidos tres jóvenes de clase baja, procedentes de un colegio público en ruinas</string>
+    <string name="descripcion8">Está serie cuenta la historia de Patty, una adolescente con sobrepeso que sufre las burlas de sus compañeros del colegio, hasta que adelgaza durante unas vacaciones de verano</string>
+    <string name="descripcion9">Tras estar en estado de coma, el policía Rick Grimes descubre que una enfermedad originó un apocalipsis zombi. Rick liderará un grupo de sobrevivientes para buscar un lugar seguro, pero las luchas más peligrosas surgirán entre ellos mismos</string>
+    <string name="descripcion10">Una crónica de la vida de la reina Isabel II de los años 40 a los tiempos modernos. A medida que pasan las décadas, se revelan intrigas personales, romances y rivalidades política</string>
+
+    <string name="clicSeleccionado">Click Seleccionado: </string>
+    <string name="canciones">Canciones</string>
+    <string name="favoritos">Agregar a favoritos</string>
+    <string name="siguiente">Siguiente Cancion</string>
+    <string name="descripcion">Descripcion: </string>
+</resources>
