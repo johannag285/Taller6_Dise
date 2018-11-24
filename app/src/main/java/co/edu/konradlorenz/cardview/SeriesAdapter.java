@@ -1,11 +1,21 @@
 package co.edu.konradlorenz.cardview;
 
+import android.animation.Animator;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
+import android.support.annotation.NonNull;
+import android.support.annotation.RequiresApi;
+import android.support.transition.Fade;
+import android.support.transition.Slide;
+import android.support.transition.TransitionSet;
 import android.support.v7.widget.RecyclerView;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewAnimationUtils;
 import android.view.ViewGroup;
+import android.view.animation.DecelerateInterpolator;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -58,6 +68,17 @@ public class SeriesAdapter extends RecyclerView.Adapter<SeriesAdapter.MyViewHold
             @Override
 
             public void onClick(View view) {
+
+
+                TransitionSet transitionSet = new TransitionSet();
+                Slide slide = new Slide(Gravity.START);
+                Fade fadeOut = new Fade(Fade.OUT);
+
+                transitionSet.addTransition(slide);
+                transitionSet.addTransition(fadeOut);
+
+                transitionSet.setInterpolator(new DecelerateInterpolator());
+
                 Intent i = new Intent(mContext,SerieDetailActivity.class);
                 i.putExtra("thumbnail", serie.getThumbnail());
                 i.putExtra("temporadas",serie.getTemporadas());
@@ -84,6 +105,24 @@ public class SeriesAdapter extends RecyclerView.Adapter<SeriesAdapter.MyViewHold
     @Override
     public int getItemCount() {
         return serieList.size();
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+    public void animateCircularReveal(View view){
+        int centerX = 0;
+        int centerY = 0;
+        int starRadius = 0;
+        int endRadius = Math.max(view.getWidth(), view.getHeight());
+        Animator animation = ViewAnimationUtils.createCircularReveal(view, centerX,centerY,starRadius,endRadius);
+        view.setVisibility(View.VISIBLE);
+        animation.start();
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+    @Override
+    public void onViewAttachedToWindow(@NonNull MyViewHolder holder) {
+        super.onViewAttachedToWindow(holder);
+        animateCircularReveal(holder.itemView);
     }
 
 
